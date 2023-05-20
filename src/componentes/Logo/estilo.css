@@ -1,5 +1,16 @@
 .logo {
     display: flex;
-    gap: 5px;
-    font-size: 1.5rem;
+    font-size: 30px;
 }
+
+.logo-img {
+    margin-right: 10px;
+}
+
+.logo-p {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 25px;
+}
+
