@@ -44,16 +44,20 @@ const ImgLivro = styled.img`
     width: 150px;
 `
 
-export default function CardRecomenda({ titulo, subtitulo, descricao, img }) {
+function CardRecomenda({titulo, subtitulo, descricao, img}) {
     return (
         <Card>
             <div>
-            <Titulo tamanhoFonte="16px" cor="#EB9B00" alinhamento="left">{titulo}</Titulo>
+                <Titulo tamanhoFonte="16px" cor="#EB9B00" alinhamento="left">{titulo}</Titulo>
                 <Subtitulo>{subtitulo}</Subtitulo>
                 <Descricao>{descricao}</Descricao>
-                <ImgLivro src={img} />
+            </div>
+            <div>
+                <ImgLivro src={img}/>
                 <Botao>Saiba mais</Botao>
             </div>
-        </Card>
+        </Card>  
     )
 }
+
+export default CardRecomenda
