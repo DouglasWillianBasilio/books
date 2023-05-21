@@ -18,8 +18,6 @@ const LogoP = styled.p`
   margin-left: 15px;
 `
 
-
-
 export default function Logo() {
   return (
     <LogoContainer>
